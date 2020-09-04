@@ -1,0 +1,198 @@
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+
+  text-align: center;
+  padding: 14px 16px ;
+  text-decoration: none;
+
+}
+.navbar a:link{
+color:white;
+}
+
+.navbar  a:visited{
+color:white;
+}
+
+.navbar  a:hover{
+color:#AFBD3A;
+}
+
+.navbar  a:active{
+color:#6B6FD0;
+}
+
+
+.dropbtn button:active{
+  color:white;
+}
+.dropbtn button:visited{
+  color:#AFBD3A
+}
+.topnavbar {
+  overflow: hidden;
+  background-color: #F8632C;
+  text-align: right;
+  padding:10px  ;
+}
+.topnavbar a{
+  padding: 4px;
+}
+.topnavbar a:link{
+color:White;
+}
+
+.topnavbar a:visited{
+color:White;
+}
+
+.topnavbar a:hover{
+color:#AFBD3A;
+}
+.topnavbar a:active{
+color:#6B6FD0;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 6px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.header {
+  padding: 80px; /* some padding */
+  text-align: center; /* center the text */
+  background: #F78358;
+  color: white; /* white text color */
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+  font-size: 40px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 40px 80px 0 white;
+  margin: 8px;
+
+}
+body{
+  background-image: url("m1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+
+  .container{
+    padding: 8px; /* some padding */
+    text-align: center; /* center the text */
+    background: black;
+    text-decoration-color: : white; /* white text color */
+  }
